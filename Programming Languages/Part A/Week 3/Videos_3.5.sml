@@ -10,7 +10,7 @@ datatype id = StudentNum of int
 datatype exp = Constant of int
 	     | Negate of exp
 	     | Add of exp * exp
-	     | Multiple of exp * exp
+	     | Multiply of exp * exp
 				    
 fun eval e =
     case e of
