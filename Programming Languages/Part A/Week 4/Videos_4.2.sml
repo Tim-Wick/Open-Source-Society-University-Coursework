@@ -19,3 +19,11 @@ fun is_even v =
 fun all_even xs = (filter(is_even, xs)
 
 fun all_even_snd xs = filter((fn (_,v) => is_even v), xs)
+
+fun double_or_triple f =
+    if f 7
+    then fn x => 2*x
+    else fn => 3*x
+		     
+val double = double_or_triple (fn x => x - 3 = 4)
+val nine = (double_or_triple (fn x => x = 42)) 3
