@@ -1,2 +1,2 @@
-# Open-Source-Society-University-Coursework
-Coursework and projects for OSSU.
+# Programming Courses
+Coursework and projects for various programming courses
